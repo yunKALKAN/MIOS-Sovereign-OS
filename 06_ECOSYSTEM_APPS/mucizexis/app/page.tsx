@@ -1,0 +1,34 @@
+"use client";
+import React, { useState, useEffect } from 'react';
+import {
+  Plus,
+  Trash2,
+  CheckCircle2,
+  Circle,
+  Eye,
+  Wallet,
+  Menu,
+  X
+} from 'lucide-react';
+
+export default function Home() {
+  return (
+    <div className="p-10">
+      <h1 className="text-4xl font-bold text-green-600">Test Sayfası</h1>
+      <p>Build hatası düzeldi mi?</p>
+    </div>
+  );
+}"use client";
+
+import React, { useState, useEffect } from 'react';
+import { 
+  Plus, 
+  Trash2, 
+  CheckCircle2, 
+  Circle, 
+  Eye, 
+  FolderPlus,
+  // ... kalan tüm ikonlar
+} from 'lucide-react';
+
+// geri kalan kod aynı kalır

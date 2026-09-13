@@ -1,0 +1,22 @@
+[
+  {
+    "id": "TOKEN_01",
+    "chain": "solana",
+    "address": "7LN9oHfSarei69yfJpFueLzXwQPGJ7FTGzvH9pQypump"
+  },
+  {
+    "id": "TOKEN_02",
+    "chain": "solana",
+    "address": "AoqYWcBaRQgA7BoqMgAmUYxkCvH4mcdCbdd2iCDopump"
+  },
+  {
+    "id": "TOKEN_03",
+    "chain": "solana",
+    "address": "8Kt1nDeQkVT5CY8yGSaBstFUhwNrt6JbZy5NKgi4e3NN"
+  },
+  {
+    "id": "TOKEN_04",
+    "chain": "solana",
+    "address": "7XE3M536wEhfiztSHCDDgBvnV9i5sceQVmkpSbZcpump"
+  }
+]

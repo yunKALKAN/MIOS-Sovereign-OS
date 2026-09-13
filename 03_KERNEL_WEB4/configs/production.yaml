@@ -1,0 +1,8 @@
+# Production environment overrides
+logging:
+  level: INFO
+  format: json
+
+api:
+  reload: false
+  workers: 4

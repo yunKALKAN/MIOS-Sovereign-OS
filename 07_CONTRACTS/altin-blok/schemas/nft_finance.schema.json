@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NFT Finans Türleri",
+  "description": "NFT finans türleri için JSON şemaları — borçlanma, kredi verme, ödül ve ücret yapıları",
+  "definitions": {
+    "token": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "chain": { "type": "string" },
+        "name": { "type": "string" },
+        "symbol": { "type": "string" },
+        "display_symbol": { "type": ["string", "null"] },
+        "optimized_symbol": { "type": "string" },
+        "decimals": { "type": "integer" },
+        "logo_url": { "type": "string" },
+        "protocol_id": { "type": "string" },
+        "price": { "type": "number" },
+        "is_verified": { "type": "boolean" },
+        "is_scam": { "type": "boolean" },
+        "is_core": { "type": "boolean" },
+        "is_wallet": { "type": "boolean" },
+        "time_at": { "type": "number" },
+        "amount": { "type": "number" }
+      },
+      "required": ["id", "chain", "name", "symbol", "decimals", "logo_url", "price", "amount"]
+    },
+    "nft": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "contract_id": { "type": "string" },
+        "inner_id": { "type": "string" },
+        "name": { "type": "string" },
+        "content_url": { "type": "string" },
+        "thumbnail_url": { "type": "string" },
+        "collection": { "$ref": "#/definitions/nftCollection" },
+        "amount": { "type": "integer" }
+      },
+      "required": ["id", "contract_id", "inner_id", "name", "content_url", "thumbnail_url", "collection", "amount"]
+    },
+    "nftCollection": {
+      "type": "object",
+      "properties": {
+        "chain_id": { "type": "string" },
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "symbol": { "type": ["string", "null"] },
+        "logo_url": { "type": "string" },
+        "is_core": { "type": "boolean" }
+      },
+      "required": ["chain_id", "id", "name", "logo_url", "is_core"]
+    },
+    "tokenList": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/token" }
+    },
+    "nftList": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/nft" }
+    }
+  },
+  "oneOf": [
+    {
+      "title": "nft_finance_type",
+      "type": "object",
+      "properties": {
+        "borrow_token_list": { "$ref": "#/definitions/tokenList" },
+        "borrow_nft_list": { "$ref": "#/definitions/nftList" },
+        "supply_token_list": { "$ref": "#/definitions/tokenList" },
+        "supply_nft_list": { "$ref": "#/definitions/nftList" },
+        "reward_token_list": { "$ref": "#/definitions/tokenList" }
+      },
+      "required": ["borrow_token_list", "borrow_nft_list", "supply_token_list", "supply_nft_list"]
+    },
+    {
+      "title": "nft_lend_borrow_type",
+      "type": "object",
+      "properties": {
+        "supply_token_list": { "$ref": "#/definitions/tokenList" },
+        "supply_nft_list": { "$ref": "#/definitions/nftList" }
+      },
+      "required": ["supply_token_list", "supply_nft_list"]
+    },
+    {
+      "title": "nft_lend_borrower",
+      "type": "object",
+      "properties": {
+        "borrow_token_list": { "$ref": "#/definitions/tokenList" },
+        "borrow_nft_list": { "$ref": "#/definitions/nftList" }
+      },
+      "required": ["borrow_token_list", "borrow_nft_list"]
+    },
+    {
+      "title": "nft_finance_with_reward_and_fees",
+      "type": "object",
+      "properties": {
+        "borrow_token_list": { "$ref": "#/definitions/tokenList" },
+        "borrow_nft_list": { "$ref": "#/definitions/nftList" },
+        "supply_token_list": { "$ref": "#/definitions/tokenList" },
+        "supply_nft_list": { "$ref": "#/definitions/nftList" },
+        "reward_token_list": { "$ref": "#/definitions/tokenList" },
+        "fees_token_list": { "$ref": "#/definitions/tokenList" },
+        "lending_reward_token_list": { "$ref": "#/definitions/tokenList" }
+      },
+      "required": ["borrow_token_list", "borrow_nft_list", "supply_token_list", "supply_nft_list"]
+    }
+  ]
+}

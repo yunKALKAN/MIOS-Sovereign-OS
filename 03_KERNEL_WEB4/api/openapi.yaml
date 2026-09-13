@@ -1,0 +1,231 @@
+openapi: "3.0.3"
+info:
+  title: MUCIZEWORK WEB4 API
+  version: "1.0"
+  description: |
+    API Contract v1 (Frozen) — Wallet clustering, smart money radar,
+    funding trace, hash ve imza dogrulama.
+
+servers:
+  - url: http://127.0.0.1:5002
+    description: Local development
+
+paths:
+  /api/v1/health:
+    get:
+      summary: Sistem sagligi ve alt sistem durumlari
+      operationId: getHealth
+      responses:
+        "200":
+          description: Sistem durumu
+          headers:
+            X-Request-ID:
+              schema: { type: string }
+            X-API-Version:
+              schema: { type: string }
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, enum: [online, degraded] }
+                  engine: { type: string }
+                  version: { type: string }
+                  subsystems:
+                    type: object
+                    additionalProperties:
+                      type: object
+                      properties:
+                        status: { type: string, enum: [ok, error] }
+                  timestamp: { type: number }
+
+  /api/v1/graph:
+    get:
+      summary: Wallet cluster graph (node + edge)
+      operationId: getGraph
+      responses:
+        "200":
+          description: Graph verisi
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  nodes:
+                    type: object
+                    additionalProperties:
+                      type: object
+                      properties:
+                        role: { type: string }
+                        balance: { type: number }
+                  edges:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        from: { type: string }
+                        to: { type: string }
+                        amount: { type: number }
+
+  /api/v1/radar:
+    get:
+      summary: Smart Money sinyal taramasi
+      operationId: getRadar
+      responses:
+        "200":
+          description: Radar sinyali
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  smart_money_inflow: { type: number }
+                  outflow: { type: number }
+                  net: { type: number }
+                  signal: { type: string, enum: [ACCUMULATION, DISTRIBUTION, NEUTRAL] }
+                  timestamp: { type: number }
+
+  /api/v1/funding/{wallet}:
+    get:
+      summary: Wallet bazli fon kaynak analizi
+      operationId: getFunding
+      parameters:
+        - name: wallet
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: Fon izleme sonucu
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  wallet: { type: string }
+                  sources: { type: array, items: { type: string } }
+                  flows: { type: array, items: { type: object } }
+                  confidence: { type: number }
+                  timestamp: { type: number }
+
+  /api/v1/funding:
+    get:
+      summary: Tum fon kaynak analizi
+      operationId: getFundingAll
+      responses:
+        "200":
+          description: Tum fon izleme sonucu
+          content:
+            application/json:
+              schema:
+                $ref: "#/paths/~1api~1v1~1funding~1%7Bwallet%7D/get/responses/200/content/application~1json/schema"
+
+  /api/v1/flow:
+    post:
+      summary: Fon akisi kaydet
+      operationId: postFlow
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [from, to, amount]
+              properties:
+                from: { type: string }
+                to: { type: string }
+                amount: { type: number }
+      responses:
+        "200":
+          description: Akis kaydedildi
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string }
+                  data: { type: object }
+                  request_id: { type: string }
+        "422":
+          description: Eksik alanlar
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/v1/hash/sha256:
+    post:
+      summary: SHA256 veri ozeti uret
+      operationId: postHash
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [input]
+              properties:
+                input: { type: string }
+      responses:
+        "200":
+          description: Hash sonucu
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hash: { type: string }
+                  algorithm: { type: string, enum: [sha256] }
+                  input_length: { type: integer }
+        "422":
+          description: Eksik input alani
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+  /api/v1/sign/verify:
+    post:
+      summary: Imza dogrula
+      operationId: postSignVerify
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [wallet, message, signature]
+              properties:
+                wallet: { type: string }
+                message: { type: string }
+                signature: { type: string }
+      responses:
+        "200":
+          description: Dogrulama sonucu
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  valid: { type: boolean }
+                  hash: { type: string }
+                  wallet: { type: string }
+        "422":
+          description: Eksik alanlar
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+components:
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code: { type: string }
+            status: { type: integer }
+            message: { type: string }
+            request_id: { type: string }

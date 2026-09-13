@@ -1,0 +1,6 @@
+# Test environment overrides
+logging:
+  level: WARNING
+
+database:
+  url: "json://storage/db/test_db.json"

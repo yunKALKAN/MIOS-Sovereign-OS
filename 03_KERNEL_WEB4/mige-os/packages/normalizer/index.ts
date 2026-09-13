@@ -1,0 +1,1 @@
+export { Blockchain, CanonicalID } from './src/canonical-id';

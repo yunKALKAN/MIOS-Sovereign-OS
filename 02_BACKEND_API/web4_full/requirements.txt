@@ -1,0 +1,5 @@
+flask
+pyjwt
+pynacl
+base58
+requests

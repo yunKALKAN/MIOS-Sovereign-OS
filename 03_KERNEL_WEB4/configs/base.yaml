@@ -1,0 +1,13 @@
+# Base configuration — shared across all environments
+engine:
+  name: WEB4_BLACK_MUCIZEWORK
+  mode: BLACK
+  version: "1.0"
+
+api:
+  port: 5002
+  cors_origins: "*"
+
+logging:
+  level: INFO
+  format: json

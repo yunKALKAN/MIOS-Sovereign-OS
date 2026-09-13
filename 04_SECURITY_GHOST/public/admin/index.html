@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MUCIZEWORK Admin</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="badge">BLACK MASTER</div>
+      <h1>MUCIZEWORK Admin Panel</h1>
+      <p>Contract registry, bot durumu ve sistem kontrol merkezi.</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Registry</h2>
+        <button onclick="loadContracts()">Contracts Yükle</button>
+      </div>
+
+      <div class="card">
+        <h2>Security</h2>
+        <p>Token sadece .env içinde tutulur. Panel public token göstermez.</p>
+      </div>
+
+      <div class="card">
+        <h2>Status</h2>
+        <button onclick="loadStatus()">Sistem Durumu</button>
+      </div>
+    </section>
+
+    <pre id="output">MUCIZEWORK Admin hazır.</pre>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

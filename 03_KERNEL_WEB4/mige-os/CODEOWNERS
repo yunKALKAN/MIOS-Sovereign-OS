@@ -1,0 +1,22 @@
+# Code Owners
+
+**Copyright © 2026 Mucize Platform. All Rights Reserved.**
+
+## Repository Owners
+
+* `@yunKALKAN`
+
+## Code Reviewers
+
+* TBD
+
+## Approval Requirements
+
+- Main branch: 1 approval required
+- Develop branch: 1 approval required
+- Feature branches: 1 approval required
+- Hotfix branches: 1 approval required
+
+## Emergency Changes
+
+For critical security fixes, repository owners can bypass standard review process.

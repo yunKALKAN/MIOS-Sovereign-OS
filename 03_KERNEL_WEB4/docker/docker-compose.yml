@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  api-gateway:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "5002:5002"
+    env_file:
+      - ../.env
+    volumes:
+      - ../storage:/app/storage
+    restart: unless-stopped
