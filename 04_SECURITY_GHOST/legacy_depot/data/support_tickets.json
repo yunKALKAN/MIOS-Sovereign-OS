@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-08-21T00:24:10.904762+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Cüzdan onay işleminde sorun yaşıyorum teknik destek talebi açar mısınız?",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787271850`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **SIKAYET BILDIRIMI**\n• Öncelik: **YUKSEK**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "SIKAYET_BILDIRIMI",
+    "priority": "YUKSEK"
+  },
+  {
+    "timestamp": "2026-08-21T01:39:24.269368+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Cüzdan aktarımında hata alıyorum yardım eder misiniz?",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787276364`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T01:46:14.373142+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Teknik destek bileti açmak ve operasyon ekibine bildirim göndermek istiyorum",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787276774`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T20:06:01.893454+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Teknik destek talebi oluşturmak istiyorum.",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787342761`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.466038+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/destek",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787349540`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  }
+]

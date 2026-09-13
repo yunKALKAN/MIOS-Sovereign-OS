@@ -1,0 +1,342 @@
+[
+  {
+    "timestamp": "2026-08-20T21:12:29.895639+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Kasa durumu nedir?",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`10,000.00 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`0`** (Kazanma Oranı: **`%0.00`**)\n• CFEL Mühürlü Blok Sayısı: **`0 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-20T21:12:35.318431+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "MZC bakiye ve durum nedir?",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`10,000.00 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`0`** (Kazanma Oranı: **`%0.00`**)\n• CFEL Mühürlü Blok Sayısı: **`0 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-20T21:21:44.531632+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "selam",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-20T21:22:58.171393+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Kasa durumu nedir?",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`69,883.51 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`14,979`** (Kazanma Oranı: **`%95.35`**)\n• CFEL Mühürlü Blok Sayısı: **`11,954 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:09.040558+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Güncel kasa ve net kâr durumu nedir?",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`69,883.51 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`14,979`** (Kazanma Oranı: **`%95.35`**)\n• CFEL Mühürlü Blok Sayısı: **`12,305 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:09.213473+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Guardian koruması ve Trailing stop fiyatı kaç?",
+    "bot_reply": "🛡️ **Canlı Guardian & Pozisyon Koruma Durumu:**\n• Bağlı Cüzdan: `0x7fe6...1f45` (OKX X Layer L2)\n• Korunan Varlık: **`0.051214 SOL`** (~$4.54)\n• Anlık SOL Piyasa Fiyatı: **`$88.64`** (OKX Spot Feed)\n• İz Süren Kâr Kilidi (Trailing Stop): **`$86.49 🔒`**\n• Durum: **KÂR KİLİTLİ & SENKRONİZE (SYNCED)**",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:09.385370+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Dijital pasaport ve kimlik skorum hakkında bilgi verir misin?",
+    "bot_reply": "🪪 **Doğrulanmış Dijital Pasaport Bilgileriniz:**\n• Ad Soyad: **Yunus Kalkan**\n• Pasaport No: **`MZ-TR-71894`** (Tür: Doğrulanmış Vatandaş)\n• Etik Kimlik Skoru: **`98.6 / 100` (A+ Tam Yetki)**\n• Doğrulama Katmanı: **MIOS Neural ID & CFEL Provenance**\n• Erişim: Tüm ekosistem servislerine tam yetkiyle bağlısınız.",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:10.597830+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "MZC Coin ve Genesis NFT durumu nedir?",
+    "bot_reply": "🪙 **MZC (Mucize Coin) Rezerv Durumu:**\n• Rezerv Bakiyeniz: **`1,240,000 MZC`**\n• Akıllı Sözleşme Ağı: **Solana Mainnet & EVM Köprüsü**\n• Kullanım Alanı: MIOS Çekirdek Hakları, Genesis Guardians NFT Minting & Gaz İndirimi.\n• Transfer & Settlement: Tüm transferler CFEL SHA-256 defterine mühürlenmektedir.",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:10.755554+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Şirketimiz için kurumsal MIOS lisansı ve API ortaklığı görüşmek istiyoruz.",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787271850`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:10.904762+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Cüzdan onay işleminde sorun yaşıyorum teknik destek talebi açar mısınız?",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787271850`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **SIKAYET BILDIRIMI**\n• Öncelik: **YUKSEK**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "SIKAYET_BILDIRIMI",
+    "priority": "YUKSEK"
+  },
+  {
+    "timestamp": "2026-08-21T01:39:23.947321+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Güncel kasa ve SOL kâr kilidi ne durumda?",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`69,883.51 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`14,979`** (Kazanma Oranı: **`%95.35`**)\n• CFEL Mühürlü Blok Sayısı: **`12,433 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T01:39:24.110128+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Kurumsal lisans ve yatırım ortaklığı için görüşmek istiyoruz",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787276364`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T01:39:24.269368+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Cüzdan aktarımında hata alıyorum yardım eder misiniz?",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787276364`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T01:46:02.219297+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "MZC token ve Polygon kontrat detaylarını ver",
+    "bot_reply": "🪙 **MZC (Mucize Coin) Rezerv Durumu:**\n• Rezerv Bakiyeniz: **`1,240,000 MZC`**\n• Akıllı Sözleşme Ağı: **Solana Mainnet & EVM Köprüsü**\n• Kullanım Alanı: MIOS Çekirdek Hakları, Genesis Guardians NFT Minting & Gaz İndirimi.\n• Transfer & Settlement: Tüm transferler CFEL SHA-256 defterine mühürlenmektedir.",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T01:46:08.949025+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Dijital pasaport durumumu ve CFEL kayıtlarını doğrula",
+    "bot_reply": "🪪 **Doğrulanmış Dijital Pasaport Bilgileriniz:**\n• Ad Soyad: **Yunus Kalkan**\n• Pasaport No: **`MZ-TR-71894`** (Tür: Doğrulanmış Vatandaş)\n• Etik Kimlik Skoru: **`98.6 / 100` (A+ Tam Yetki)**\n• Doğrulama Katmanı: **MIOS Neural ID & CFEL Provenance**\n• Erişim: Tüm ekosistem servislerine tam yetkiyle bağlısınız.",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T01:46:11.397141+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Dijital pasaport durumumu ve CFEL kayıtlarını doğrula",
+    "bot_reply": "🪪 **Doğrulanmış Dijital Pasaport Bilgileriniz:**\n• Ad Soyad: **Yunus Kalkan**\n• Pasaport No: **`MZ-TR-71894`** (Tür: Doğrulanmış Vatandaş)\n• Etik Kimlik Skoru: **`98.6 / 100` (A+ Tam Yetki)**\n• Doğrulama Katmanı: **MIOS Neural ID & CFEL Provenance**\n• Erişim: Tüm ekosistem servislerine tam yetkiyle bağlısınız.",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T01:46:14.373142+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Teknik destek bileti açmak ve operasyon ekibine bildirim göndermek istiyorum",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787276774`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T01:46:18.171864+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Cüzdan ve SOL kâr kilidi durumumu sorgula",
+    "bot_reply": "🛡️ **Canlı Guardian & Pozisyon Koruma Durumu:**\n• Bağlı Cüzdan: `0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45` (OKX X Layer L2)\n• Korunan Varlık: **`0.051214 SOL`** (~$4.53)\n• Anlık SOL Piyasa Fiyatı: **`$88.48`** (OKX Spot Feed)\n• İz Süren Kâr Kilidi (Trailing Stop): **`$86.27 🔒`**\n• Durum: **KÂR KİLİTLİ & SENKRONİZE (SYNCED)**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T02:02:45.741325+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Guardian ve Trailing stop fiyatı kaç?",
+    "bot_reply": "🛡️ **Canlı Guardian & Pozisyon Koruma Durumu:**\n• Bağlı Cüzdan: `0x7fe6...1f45` (OKX X Layer L2)\n• Korunan Varlık: **`0.051214 SOL`** (~$4.54)\n• Anlık SOL Piyasa Fiyatı: **`$88.68`** (OKX Spot Feed)\n• İz Süren Kâr Kilidi (Trailing Stop): **`$86.46 🔒`**\n• Durum: **KÂR KİLİTLİ & SENKRONİZE (SYNCED)**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T20:05:51.353500+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "slm",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T20:06:01.893454+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Teknik destek talebi oluşturmak istiyorum.",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787342761`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T21:42:03.351985+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "ping test",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:48:27.046023+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "system verification",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:49:25.191179+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "public chain verification",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:51:39.029293+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "routing research verification",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:53:07.344779+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "routing research verification",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:53:53.785708+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6b991e13e5c8cbe7db6ca7b853afead4a1f45",
+    "user_message": "Cüzdan varlıklarım ve kâr durumu nedir?",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.384385+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/kasa",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`10,341.50 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`182`** (Kazanma Oranı: **`%100.00`**)\n• CFEL Mühürlü Blok Sayısı: **`0 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.397542+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/guardian",
+    "bot_reply": "🛡️ **Canlı Guardian & Pozisyon Koruma Durumu:**\n• Bağlı Cüzdan: `0x7fe6...1f45` (OKX X Layer L2)\n• Korunan Varlık: **`0.051214 SOL`** (~$4.70)\n• Anlık SOL Piyasa Fiyatı: **`$91.78`** (OKX Spot Feed)\n• İz Süren Kâr Kilidi (Trailing Stop): **`$89.49 🔒`**\n• Durum: **KÂR KİLİTLİ & SENKRONİZE (SYNCED)**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.411493+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/pnl",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`10,341.50 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`182`** (Kazanma Oranı: **`%100.00`**)\n• CFEL Mühürlü Blok Sayısı: **`0 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.431781+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/ajanlar",
+    "bot_reply": "Merhaba **Yunus Kalkan**, ben **Chat MIOS** otonom ekosistem asistanı.\n\nSize şu konularda anlık yardımcı olabilirim:\n• 📊 **Kasa & PnL:** Anlık finansal telemetri ve işlem kârları\n• 🛡️ **Guardian:** Cüzdan pozisyon koruması ve Trailing Stop kilitleri\n• 🪪 **Pasaport & Cüzdan:** Dijital vatandaşlık ve varlık dağılımı\n• 🪙 **MZC Coin & NFT:** Rezervler ve Genesis Guardians serisi\n• 🎫 **Destek & Talep:** Teknik yardım veya kurumsal işbirliği\n\nNasıl yardımcı olabilirim?",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.448702+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/lisans",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787349540`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.466038+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/destek",
+    "bot_reply": "🎫 **Destek Talebiniz Oluşturuldu (Bilet ID: `TICK-1787349540`):**\n\nİlettiğiniz konu teknik operasyon ekibimize iletilmiştir.\n• Talep Türü: **DESTEK TALEBI**\n• Öncelik: **ORTA**\n• İlgili Kimlik: **Yunus Kalkan (MZ-TR-71894)**\n\nEkibimiz sistem loglarını ve telemetri kayıtlarını inceleyerek size dönüş yapacaktır.",
+    "intent": "DESTEK_TALEBI",
+    "priority": "ORTA"
+  },
+  {
+    "timestamp": "2026-08-21T22:16:30.258577+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/kasa",
+    "bot_reply": "📊 **Canlı Kasa & Hazine Raporu:**\n• Güncel Hazine Kasası: **`22,883.96 ₺`**\n• Net Kâr: **`+54,131.62 ₺` (+%541.32)**\n• Toplam Tamamlanan İşlem: **`270`** (Kazanma Oranı: **`%75.90`**)\n• CFEL Mühürlü Blok Sayısı: **`0 Blok`**",
+    "intent": "GENEL_BILGI",
+    "priority": "NORMAL"
+  }
+]

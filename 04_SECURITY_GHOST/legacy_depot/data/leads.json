@@ -1,0 +1,42 @@
+[
+  {
+    "timestamp": "2026-08-21T00:24:09.213473+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Guardian koruması ve Trailing stop fiyatı kaç?",
+    "bot_reply": "🛡️ **Canlı Guardian & Pozisyon Koruma Durumu:**\n• Bağlı Cüzdan: `0x7fe6...1f45` (OKX X Layer L2)\n• Korunan Varlık: **`0.051214 SOL`** (~$4.54)\n• Anlık SOL Piyasa Fiyatı: **`$88.64`** (OKX Spot Feed)\n• İz Süren Kâr Kilidi (Trailing Stop): **`$86.49 🔒`**\n• Durum: **KÂR KİLİTLİ & SENKRONİZE (SYNCED)**",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T00:24:10.755554+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Şirketimiz için kurumsal MIOS lisansı ve API ortaklığı görüşmek istiyoruz.",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787271850`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T01:39:24.110128+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Kurumsal lisans ve yatırım ortaklığı için görüşmek istiyoruz",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787276364`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T21:59:00.448702+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "/lisans",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787349540`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
+    "intent": "LEAD_POTANSIYEL",
+    "priority": "STRATEJIK"
+  }
+]
