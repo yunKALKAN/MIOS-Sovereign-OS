@@ -7,3 +7,6 @@ target/
 dist/
 build/
 *.log
+04_SECURITY_GHOST/legacy_depot/data/*.tmp
+04_SECURITY_GHOST/legacy_depot/data/*.jsonl
+04_SECURITY_GHOST/legacy_depot/data/cfel_bot_depot_ledger.json*
