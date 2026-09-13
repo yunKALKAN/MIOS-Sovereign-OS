@@ -1,0 +1,41 @@
+{
+  "global_maintenance": true,
+  "global_maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu",
+  "bots": {
+    "mios-live-command": {
+      "status": "MAINTENANCE",
+      "maintenance_mode": true,
+      "maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu"
+    },
+    "mioxid-99": {
+      "status": "MAINTENANCE",
+      "maintenance_mode": true,
+      "maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu"
+    },
+    "mios-guardian": {
+      "status": "MAINTENANCE",
+      "maintenance_mode": true,
+      "maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu"
+    },
+    "mios-signal": {
+      "status": "MAINTENANCE",
+      "maintenance_mode": true,
+      "maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu"
+    },
+    "mios-telemetry": {
+      "status": "MAINTENANCE",
+      "maintenance_mode": true,
+      "maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu"
+    },
+    "mios-cfel": {
+      "status": "MAINTENANCE",
+      "maintenance_mode": true,
+      "maintenance_reason": "Kullanıcı Talimatı: Planlı Servis ve Bakım Modu"
+    },
+    "mucizework-youtube-worker": {
+      "status": "VETO_BLOCKED",
+      "maintenance_mode": false,
+      "maintenance_reason": "Kanal yetkilendirmesi bekleniyor (@mucizeworkxis)"
+    }
+  }
+}

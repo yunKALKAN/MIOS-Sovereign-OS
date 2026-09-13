@@ -1,42 +1,52 @@
 [
   {
-    "timestamp": "2026-08-21T00:24:09.213473+00:00Z",
+    "timestamp": "2026-08-20T17:19:47.872478+00:00Z",
     "user_name": "Yunus Kalkan",
     "passport_id": "MZ-TR-71894",
     "wallet": "0x7fe6...1f45",
-    "user_message": "Guardian koruması ve Trailing stop fiyatı kaç?",
-    "bot_reply": "🛡️ **Canlı Guardian & Pozisyon Koruma Durumu:**\n• Bağlı Cüzdan: `0x7fe6...1f45` (OKX X Layer L2)\n• Korunan Varlık: **`0.051214 SOL`** (~$4.54)\n• Anlık SOL Piyasa Fiyatı: **`$88.64`** (OKX Spot Feed)\n• İz Süren Kâr Kilidi (Trailing Stop): **`$86.49 🔒`**\n• Durum: **KÂR KİLİTLİ & SENKRONİZE (SYNCED)**",
+    "user_message": "Kurumsal entegrasyon ve lisans ortaklığı için görüşmek istiyorum.",
+    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787246387`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
     "intent": "LEAD_POTANSIYEL",
     "priority": "STRATEJIK"
   },
   {
-    "timestamp": "2026-08-21T00:24:10.755554+00:00Z",
+    "timestamp": "2026-08-21T19:57:36.925250+00:00Z",
     "user_name": "Yunus Kalkan",
     "passport_id": "MZ-TR-71894",
     "wallet": "0x7fe6...1f45",
-    "user_message": "Şirketimiz için kurumsal MIOS lisansı ve API ortaklığı görüşmek istiyoruz.",
-    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787271850`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
-    "intent": "LEAD_POTANSIYEL",
+    "user_message": "Paket yükseltmek ve planları görmek istiyorum, fiyatlar nedir?",
+    "bot_reply": "🚀 **MIOS Ekosistem Paket Yükseltme & Upsell Seçenekleri:**\n\nSizin için önerilen en verimli plan: **🔥 PRO TİCARİ (EN ÇOK TERCİH EDİLEN) — MucizeWORK Pro**\n• Aylık Lisans: **`4,500 ₺ / Ay`** ($149)\n• Güncel Kasanızla (`69,900.74 ₺`) **Tahmini Aylık Net Kâr: `+15,421.71 ₺`**\n• Solana AI Sniper v35.0 & 6x Bot Slotu Dahil\n• 🪙 **MZC İndirimi:** 5,000 MZC stake ederek veya Genesis NFT ile **%30 indirim** kazanırsınız.\n\nTüm planları karşılaştırmak için Telegram'da `/plans` veya doğrudan yükseltme için `/upgrade PRO` yazabilirsiniz.",
+    "intent": "PAKET_YUKSELTMESI_UPSELL",
     "priority": "STRATEJIK"
   },
   {
-    "timestamp": "2026-08-21T01:39:24.110128+00:00Z",
+    "timestamp": "2026-08-21T19:57:36.926665+00:00Z",
     "user_name": "Yunus Kalkan",
     "passport_id": "MZ-TR-71894",
     "wallet": "0x7fe6...1f45",
-    "user_message": "Kurumsal lisans ve yatırım ortaklığı için görüşmek istiyoruz",
-    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787276364`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
-    "intent": "LEAD_POTANSIYEL",
+    "user_message": "Solana sniper kullanmak ve bot slotlarımı artırmak istiyorum",
+    "bot_reply": "🚀 **MIOS Ekosistem Paket Yükseltme & Upsell Seçenekleri:**\n\nSizin için önerilen en verimli plan: **🔥 PRO TİCARİ (EN ÇOK TERCİH EDİLEN) — MucizeWORK Pro**\n• Aylık Lisans: **`4,500 ₺ / Ay`** ($149)\n• Güncel Kasanızla (`69,900.74 ₺`) **Tahmini Aylık Net Kâr: `+15,421.71 ₺`**\n• Solana AI Sniper v35.0 & 6x Bot Slotu Dahil\n• 🪙 **MZC İndirimi:** 5,000 MZC stake ederek veya Genesis NFT ile **%30 indirim** kazanırsınız.\n\nTüm planları karşılaştırmak için Telegram'da `/plans` veya doğrudan yükseltme için `/upgrade PRO` yazabilirsiniz.",
+    "intent": "PAKET_YUKSELTMESI_UPSELL",
     "priority": "STRATEJIK"
   },
   {
-    "timestamp": "2026-08-21T21:59:00.448702+00:00Z",
+    "timestamp": "2026-08-21T20:22:55.360305+00:00Z",
     "user_name": "Yunus Kalkan",
     "passport_id": "MZ-TR-71894",
     "wallet": "0x7fe6...1f45",
-    "user_message": "/lisans",
-    "bot_reply": "🤝 **Talebiniz Öncelikli Olarak Kaydedildi!**\n\nKurumsal işbirliği, entegrasyon veya ekosistem yatırımı konusundaki mesajınız doğrudan **MIOS Kurumsal İletişim Masası**'na iletildi.\n\n📋 **Kayıt ID:** `LEAD-1787349540`\nYetkili ekibimiz doğrulanmış kimliğiniz (`MZ-TR-71894`) üzerinden en kısa sürede sizinle iletişime geçecektir.",
-    "intent": "LEAD_POTANSIYEL",
+    "user_message": "Paket fiyatları ve yükseltme seçenekleri nelerdir?",
+    "bot_reply": "🚀 **MIOS Ekosistem Paket Yükseltme & Upsell Seçenekleri:**\n\nSizin için önerilen en verimli plan: **🔥 PRO TİCARİ (EN ÇOK TERCİH EDİLEN) — MucizeWORK Pro**\n• Aylık Lisans: **`4,500 ₺ / Ay`** ($149)\n• Güncel Kasanızla (`69,951.87 ₺`) **Tahmini Aylık Net Kâr: `+15,436.28 ₺`**\n• Solana AI Sniper v35.0 & 6x Bot Slotu Dahil\n• 🪙 **MZC İndirimi:** 5,000 MZC stake ederek veya Genesis NFT ile **%30 indirim** kazanırsınız.\n\nTüm planları karşılaştırmak için Telegram'da `/plans` veya doğrudan yükseltme için `/upgrade PRO` yazabilirsiniz.",
+    "intent": "PAKET_YUKSELTMESI_UPSELL",
+    "priority": "STRATEJIK"
+  },
+  {
+    "timestamp": "2026-08-21T20:25:46.585304+00:00Z",
+    "user_name": "Yunus Kalkan",
+    "passport_id": "MZ-TR-71894",
+    "wallet": "0x7fe6...1f45",
+    "user_message": "Solana sniper botu nasıl yükseltirim?",
+    "bot_reply": "🚀 **MIOS Ekosistem Paket Yükseltme & Upsell Seçenekleri:**\n\nSizin için önerilen en verimli plan: **🔥 PRO TİCARİ (EN ÇOK TERCİH EDİLEN) — MucizeWORK Pro**\n• Aylık Lisans: **`4,500 ₺ / Ay`** ($149)\n• Güncel Kasanızla (`10,329.05 ₺`) **Tahmini Aylık Net Kâr: `+-1,556.22 ₺`**\n• Solana AI Sniper v35.0 & 6x Bot Slotu Dahil\n• 🪙 **MZC İndirimi:** 5,000 MZC stake ederek veya Genesis NFT ile **%30 indirim** kazanırsınız.\n\nTüm planları karşılaştırmak için Telegram'da `/plans` veya doğrudan yükseltme için `/upgrade PRO` yazabilirsiniz.",
+    "intent": "PAKET_YUKSELTMESI_UPSELL",
     "priority": "STRATEJIK"
   }
 ]

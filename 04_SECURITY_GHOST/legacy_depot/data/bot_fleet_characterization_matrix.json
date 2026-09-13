@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "engine": "BotServiceCharacterizationEngine",
+    "version": "v37.0-EnterpriseCharacterization",
+    "generated_at": "2026-08-23T16:08:50.655345+00:00Z",
+    "total_bots_characterized": 7
+  },
+  "fleet_matrix": {
+    "mios-live-command": {
+      "bot_id": "mios-live-command",
+      "name": "MIOS Live Command",
+      "version": "v2.5.0-LiveCommand",
+      "status": "ONLINE",
+      "role_description": "Merkezi Telegram komut arayüzü, interaktif menü, telemetri sorgulama ve ticari faturalandırma motoru.",
+      "operational": {
+        "execution_type": "COMMAND_INTERFACE",
+        "venue": "Telegram Bot API (@MIOSLiveBot)",
+        "concurrency_model": "Async Polling / Event Dispatcher",
+        "process_binding": "01_MIOS_CORE/bot_depot/live_command_bot.py",
+        "state_persistence": "CFEL Blockchain + Treasury Scoped"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          50,
+          450
+        ],
+        "throughput_metric": "1 user command / msg",
+        "avg_execution_speed": "< 120ms response time",
+        "memory_profile": "< 55 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 0.0,
+        "stop_loss_mechanism": "None (Read & Interactive)",
+        "take_profit_mechanism": "None",
+        "max_slippage_bps": 0,
+        "emergency_freeze_support": true
+      },
+      "entitlement": {
+        "tier_assignment": "PRO",
+        "secret_scope": "SCOPE_LIVE_COMMAND",
+        "permissions": [
+          "user_command_handling",
+          "interactive_menu",
+          "telemetry_query",
+          "shift_reporting",
+          "upsell_engine"
+        ],
+        "monetization_value": "$149/mo (Included in Pro & Enterprise)"
+      },
+      "audit": {
+        "primary_event_types": [
+          "COMMAND_EXECUTED",
+          "COMMERCIAL_INVOICE_GENERATED",
+          "TIER_UPGRADE_REQUESTED"
+        ],
+        "ledger_binding": "cfel_bot_depot_ledger.json",
+        "cryptographic_seal": "SHA-256 Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    },
+    "mioxid-99": {
+      "bot_id": "mioxid-99",
+      "name": "MİOXid 99",
+      "version": "v2.5.0-MioxiD99",
+      "status": "ONLINE",
+      "role_description": "Legacy çalışma zamanı köprüsü, telemetri ve sistem duyurusu yayınlayıcısı.",
+      "operational": {
+        "execution_type": "LEGACY_BRIDGE",
+        "venue": "Telegram Bot API (@mucizework_runtime_bot)",
+        "concurrency_model": "Async Event Bus Listener",
+        "process_binding": "01_MIOS_CORE/bot_depot/mioxid99_bot.py",
+        "state_persistence": "CFEL Blockchain"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          100,
+          600
+        ],
+        "throughput_metric": "Broadcast event routing",
+        "avg_execution_speed": "< 250ms broadcast",
+        "memory_profile": "< 45 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 0.0,
+        "stop_loss_mechanism": "None",
+        "take_profit_mechanism": "None",
+        "max_slippage_bps": 0,
+        "emergency_freeze_support": true
+      },
+      "entitlement": {
+        "tier_assignment": "ENTERPRISE",
+        "secret_scope": "SCOPE_MIOXID_99",
+        "permissions": [
+          "runtime_notification_broadcast",
+          "legacy_bridge",
+          "upsell_broadcast"
+        ],
+        "monetization_value": "Enterprise Ecosystem Bridge"
+      },
+      "audit": {
+        "primary_event_types": [
+          "DAILY_BOT_REPORT_SUBMITTED",
+          "CLOSING_SHIFT_REPORT_SUBMITTED"
+        ],
+        "ledger_binding": "cfel_bot_depot_ledger.json",
+        "cryptographic_seal": "SHA-256 Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    },
+    "mios-guardian": {
+      "bot_id": "mios-guardian",
+      "name": "MIOS Guardian",
+      "version": "v2.5.0-LiveGuardian",
+      "status": "ONLINE",
+      "role_description": "Canlı cüzdan kalkanı, zirve kâr kilidi (Trailing Profit Lock) ve %12 düşüşte acil durum devre kesicisi.",
+      "operational": {
+        "execution_type": "LIVE_REAL_MONEY (Wallet Observation & Protection)",
+        "venue": "OKX X Layer (L2) & Solana Mainnet",
+        "concurrency_model": "Continuous Daemon Poller",
+        "process_binding": "03_TRADING_BOTS/mios_wallet_guardian.py",
+        "state_persistence": "guardian_live_state.json + CFEL Chain"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          150,
+          800
+        ],
+        "throughput_metric": "1 wallet state / 5 sec",
+        "avg_execution_speed": "< 400ms state evaluation",
+        "memory_profile": "< 60 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 12.0,
+        "stop_loss_mechanism": "Trailing Stop (-2.5% from Peak) + Circuit Breaker (-12.0% Hard Halt)",
+        "take_profit_mechanism": "Dynamic Trailing Profit Lock",
+        "max_slippage_bps": 50,
+        "emergency_freeze_support": true
+      },
+      "entitlement": {
+        "tier_assignment": "PRO",
+        "secret_scope": "SCOPE_GUARDIAN",
+        "permissions": [
+          "wallet_monitoring",
+          "trailing_profit_lock",
+          "emergency_halt"
+        ],
+        "monetization_value": "$149/mo (Pro Risk Suite)"
+      },
+      "audit": {
+        "primary_event_types": [
+          "TRAILING_STOP_RAISED",
+          "GUARDIAN_ALERT",
+          "EMERGENCY_HALT_TRIGGERED"
+        ],
+        "ledger_binding": "guardian_live_state.json & cfel_trading_ledger.json",
+        "cryptographic_seal": "SHA-256 Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    },
+    "mios-signal": {
+      "bot_id": "mios-signal",
+      "name": "MIOS Signal",
+      "version": "v36.0-EnterpriseSniper",
+      "status": "ONLINE",
+      "role_description": "Makine öğrenmesi tabanlı (LightGBM GBDT) sinyal üretici, Solana DEX likidite tarayıcısı.",
+      "operational": {
+        "execution_type": "REAL_DATA_PAPER (Signal Generation & Router)",
+        "venue": "Solana DEX (Jupiter v6 / Raydium) + OKX CEX",
+        "concurrency_model": "Async Multi-Agent Orchestrator",
+        "process_binding": "03_TRADING_BOTS/mios_trading_orchestrator.py",
+        "state_persistence": "test_24hour_report.json + CFEL Chain"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          80,
+          500
+        ],
+        "throughput_metric": "20 token universe / cycle",
+        "avg_execution_speed": "< 45ms ML Inference",
+        "memory_profile": "< 120 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 5.0,
+        "stop_loss_mechanism": "Hard-Stop -1.50%",
+        "take_profit_mechanism": "Quick Take-Profit +2.40% & Trailing",
+        "max_slippage_bps": 25,
+        "emergency_freeze_support": true
+      },
+      "entitlement": {
+        "tier_assignment": "ENTERPRISE",
+        "secret_scope": "SCOPE_SIGNAL",
+        "permissions": [
+          "market_analysis",
+          "ml_inference",
+          "dex_execution"
+        ],
+        "monetization_value": "$499/mo (Enterprise Sniper)"
+      },
+      "audit": {
+        "primary_event_types": [
+          "SIGNAL_CREATED",
+          "HFT_BUY_EXECUTED",
+          "HFT_CLOSE_SETTLED"
+        ],
+        "ledger_binding": "cfel_bot_depot_ledger.json",
+        "cryptographic_seal": "SHA-256 Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    },
+    "mios-telemetry": {
+      "bot_id": "mios-telemetry",
+      "name": "MIOS Telemetry",
+      "version": "v2.5.0-CoreTelemetry",
+      "status": "ONLINE",
+      "role_description": "Çoklu çalışma alanı telemetri normalizasyonu, bakiye ve kasa senkronizasyonu.",
+      "operational": {
+        "execution_type": "TELEMETRY_SYNC",
+        "venue": "Linux OS & File System Daemons",
+        "concurrency_model": "Periodic Sync Interval (10s)",
+        "process_binding": "05_SCRIPTS/sync_telemetry.py",
+        "state_persistence": "telemetry_normalized.json + CFEL"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          20,
+          150
+        ],
+        "throughput_metric": "Whole workspace state normalization",
+        "avg_execution_speed": "< 50ms aggregate",
+        "memory_profile": "< 40 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 0.0,
+        "stop_loss_mechanism": "None",
+        "take_profit_mechanism": "None",
+        "max_slippage_bps": 0,
+        "emergency_freeze_support": false
+      },
+      "entitlement": {
+        "tier_assignment": "ENTERPRISE",
+        "secret_scope": "SCOPE_TELEMETRY",
+        "permissions": [
+          "state_normalization",
+          "remote_sync",
+          "metrics_aggregation"
+        ],
+        "monetization_value": "Core Infrastructure (LITE / PRO / ENT)"
+      },
+      "audit": {
+        "primary_event_types": [
+          "TELEMETRY_SYNCED",
+          "METRICS_AGGREGATED"
+        ],
+        "ledger_binding": "cfel_bot_depot_ledger.json",
+        "cryptographic_seal": "SHA-256 Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    },
+    "mios-cfel": {
+      "bot_id": "mios-cfel",
+      "name": "MIOS CFEL",
+      "version": "v2.5.0-CFEL",
+      "status": "ONLINE",
+      "role_description": "Merkezi kriptografik SHA-256 adli defter mühürleyicisi, kanıt ve zincir bütünlük denetçisi.",
+      "operational": {
+        "execution_type": "FORENSIC_AUDIT",
+        "venue": "Local Cryptographic Blockchain Ledger",
+        "concurrency_model": "ThreadSafe Lock / Append-Only",
+        "process_binding": "01_MIOS_CORE/bot_depot/cfel_auditor.py",
+        "state_persistence": "cfel_bot_depot_ledger.json (26,500+ Blocks)"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          1,
+          20
+        ],
+        "throughput_metric": "1 block / transaction seal",
+        "avg_execution_speed": "< 5ms SHA-256 hashing",
+        "memory_profile": "< 50 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 0.0,
+        "stop_loss_mechanism": "Immutable Chain Verification",
+        "take_profit_mechanism": "None",
+        "max_slippage_bps": 0,
+        "emergency_freeze_support": false
+      },
+      "entitlement": {
+        "tier_assignment": "ENTERPRISE",
+        "secret_scope": "SCOPE_CFEL",
+        "permissions": [
+          "cryptographic_hashing",
+          "evidence_sealing",
+          "integrity_audit",
+          "upsell_provenance"
+        ],
+        "monetization_value": "Enterprise Security Backbone"
+      },
+      "audit": {
+        "primary_event_types": [
+          "BLOCK_SEALED",
+          "INTEGRITY_VERIFIED",
+          "CHAIN_AUDITED"
+        ],
+        "ledger_binding": "cfel_bot_depot_ledger.json",
+        "cryptographic_seal": "SHA-256 Genesis-Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    },
+    "solana-nano-sniper": {
+      "bot_id": "solana-nano-sniper",
+      "name": "MIOS Nano-Yield Engine",
+      "version": "v37.0-EnterpriseNano",
+      "status": "ONLINE",
+      "role_description": "Gerçek Solana Mainnet piyasa verisiyle çalışan, saniyelik mikro-tahsisat ve kâr kilitleme motoru.",
+      "operational": {
+        "execution_type": "REAL_DATA_PAPER (Micro-Capital Allocation Engine)",
+        "venue": "Solana DEX (Jupiter v6 / Raydium) + Solana Mainnet RPC",
+        "concurrency_model": "High-Frequency Sub-Second Cycle Loop",
+        "process_binding": "01_MIOS_CORE/bot_depot/micro_yield_service.py",
+        "state_persistence": "nano_yield_trades.jsonl + CFEL Chain"
+      },
+      "performance": {
+        "expected_latency_ms": [
+          100,
+          450
+        ],
+        "throughput_metric": "20 token DEX pools / scan",
+        "avg_execution_speed": "1,394ms average hold time",
+        "memory_profile": "< 65 MB"
+      },
+      "risk": {
+        "drawdown_tolerance_pct": 0.0,
+        "stop_loss_mechanism": "Ultra Sıkı Stop-Loss -0.60% (Micro-Brake)",
+        "take_profit_mechanism": "Nano Take-Profit +1.20% (+0.1847 ₺ avg)",
+        "max_slippage_bps": 25,
+        "emergency_freeze_support": true
+      },
+      "entitlement": {
+        "tier_assignment": "PRO",
+        "secret_scope": "SCOPE_SIGNAL",
+        "permissions": [
+          "nano_yield_execution",
+          "real_data_feed",
+          "cfel_sealing",
+          "risk_gate_enforcement"
+        ],
+        "monetization_value": "$149/mo (Pro Yield Driver)"
+      },
+      "audit": {
+        "primary_event_types": [
+          "NANO_YIELD_TRADE_EXECUTED",
+          "NANO_YIELD_CYCLE_EXECUTED"
+        ],
+        "ledger_binding": "nano_yield_trades.jsonl & cfel_bot_depot_ledger.json",
+        "cryptographic_seal": "SHA-256 Chained"
+      },
+      "behavioral_drift_status": "NORMAL",
+      "total_historical_events": 0,
+      "health_score": 100.0,
+      "last_characterized": "2026-08-23T16:08:50.542605+00:00Z"
+    }
+  }
+}

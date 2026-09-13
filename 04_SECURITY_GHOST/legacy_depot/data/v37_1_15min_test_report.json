@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "test_name": "MIOS Nano-Yield Engine v37.1 15-Minute Integrated Execution Test",
+    "bot_id": "solana-nano-sniper",
+    "bot_version": "v37.1-EnterpriseNano",
+    "strategy_version": "nano-yield-1.8-ExecIntel",
+    "timestamp_start": "2026-09-08T08:43:04.445412+00:00Z",
+    "timestamp_end": "2026-09-08T08:58:06.254451+00:00Z",
+    "target_duration_sec": 900,
+    "actual_duration_sec": 901.81,
+    "execution_mode": "PAPER",
+    "data_mode": "REAL",
+    "cfel_block_start": 28835,
+    "cfel_block_end": 30511,
+    "cfel_blocks_sealed_in_test": 1676
+  },
+  "scans_and_funnel": {
+    "cycles_completed": 260,
+    "total_market_scans": 260,
+    "total_candidates_evaluated": 2340,
+    "total_approved_signals": 586,
+    "total_rejected_signals": 1754,
+    "rejection_by_gate": {
+      "AI_CONFIDENCE_GATE": 323,
+      "APPROVED_FOR_EXECUTION": 586,
+      "PRICE_FRESHNESS_GATE": 1431
+    },
+    "approval_rate_pct": 25.04
+  },
+  "trades_and_pnl": {
+    "execution_count": 419,
+    "winning_trades": 418,
+    "losing_trades": 1,
+    "breakeven_trades": 0,
+    "win_rate_pct": 99.76,
+    "profit_factor": 329.82,
+    "profit_factor_display": "329.82",
+    "gross_pnl_try": 1163.9879,
+    "dex_fees_try": 77.9618,
+    "priority_fees_try": 1.8855,
+    "slippage_cost_try": 77.9618,
+    "total_cost_try": 157.8091,
+    "net_pnl_try": 1005.7618,
+    "average_trade_net_try": 2.4004,
+    "max_drawdown_try": 3.0587
+  },
+  "execution_quality_score": {
+    "mean_eqs": 89.26,
+    "min_eqs": 80.06,
+    "max_eqs": 91.25,
+    "grade_distribution": {
+      "A (Yüksek Standart)": 331,
+      "AA (Üstün Kalite)": 88
+    }
+  },
+  "runtime_metrics": {
+    "opportunity_score": {
+      "mean": 0.1395,
+      "min": 0.0,
+      "max": 0.8861
+    },
+    "confidence_score_pct": {
+      "mean": 91.98,
+      "min": 85.0,
+      "max": 98.86
+    },
+    "price_freshness_ms": {
+      "mean": 2843.0,
+      "min": 67,
+      "max": 4867
+    },
+    "liquidity_usd": {
+      "mean": 1237140.0,
+      "min": 68078.0,
+      "max": 4939167.0
+    },
+    "rpc_latency_ms": {
+      "mean": 247.9,
+      "min": 145,
+      "max": 1219
+    },
+    "hold_time_ms": {
+      "mean": 2880.3,
+      "min": 905,
+      "max": 4421
+    },
+    "position_size_try": {
+      "mean": 232.58,
+      "min": 187.6,
+      "max": 275.8
+    }
+  },
+  "performance_attribution": {
+    "asset_attribution": {
+      "RAY": {
+        "count": 91,
+        "net_pnl": 213.1862,
+        "avg_pnl": 2.3427
+      },
+      "JTO": {
+        "count": 49,
+        "net_pnl": 120.7245,
+        "avg_pnl": 2.4638
+      },
+      "SAMO": {
+        "count": 6,
+        "net_pnl": 15.3714,
+        "avg_pnl": 2.5619
+      },
+      "JUP": {
+        "count": 100,
+        "net_pnl": 237.6371,
+        "avg_pnl": 2.3764
+      },
+      "BONK": {
+        "count": 126,
+        "net_pnl": 308.1393,
+        "avg_pnl": 2.4455
+      },
+      "POPCAT": {
+        "count": 44,
+        "net_pnl": 102.8574,
+        "avg_pnl": 2.3377
+      },
+      "ORCA": {
+        "count": 2,
+        "net_pnl": 5.5218,
+        "avg_pnl": 2.7609
+      },
+      "PENGU": {
+        "count": 1,
+        "net_pnl": 2.3241,
+        "avg_pnl": 2.3241
+      }
+    },
+    "sizing_bracket_pnl": {
+      "100-150 TRY": 0.0,
+      "150-225 TRY": 332.0326,
+      "225-300 TRY": 673.7292
+    },
+    "execution_quality_distribution": {
+      "A (Yüksek Standart)": 331,
+      "AA (Üstün Kalite)": 88
+    }
+  },
+  "confidence_calibration": {
+    "total_samples": 419,
+    "brier_score": 0.0057,
+    "mean_predicted_confidence": 94.54,
+    "realized_win_rate_pct": 99.76,
+    "calibration_gap_pct": 5.22,
+    "calibration_quality": "EXCELLENT"
+  },
+  "safety_and_invariants": {
+    "execution_mode": "PAPER",
+    "data_mode": "REAL",
+    "wallet_mutation_count": 0,
+    "real_transaction_count": 0,
+    "paper_signature_count": 419,
+    "cfel_sealed_trade_count": 419,
+    "cfel_chain_valid": true,
+    "hard_gate_pass": true
+  }
+}
